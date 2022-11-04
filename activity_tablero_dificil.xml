@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/margen_vertical"
+        android:paddingBottom="@dimen/margen_vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Nivel_3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/margen_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tiempotextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/tiempo"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:id="@+id/movimientostextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                tools:text="@string/movimientos" />
+        </LinearLayout>
+
+        <ViewFlipper
+            android:id="@+id/my_view_flipper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        <androidx.gridlayout.widget.GridLayout
+            android:id="@+id/tableroGridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:columnCount="4">
+
+            <ImageView
+                android:id="@+id/imageButton1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:scaleType="fitCenter"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/reverso" />
+
+            <ImageView
+                android:id="@+id/imageButton2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:scaleType="fitCenter"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/reverso" />
+
+            <ImageView
+                android:id="@+id/imageButton3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:scaleType="fitCenter"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/reverso" />
+
+            <ImageView
+                android:id="@+id/imageButton4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:scaleType="fitCenter"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/reverso" />
+
+            <ImageView
+                android:id="@+id/imageButton5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:scaleType="fitCenter"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/reverso" />
+
+            <ImageView
+                android:id="@+id/imageButton6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:scaleType="fitCenter"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/reverso" />
+
+            <ImageView
+                android:id="@+id/imageButton7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:scaleType="fitCenter"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/reverso" />
+
+            <ImageView
+                android:id="@+id/imageButton8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:scaleType="fitCenter"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/reverso" />
+
+            <ImageView
+                android:id="@+id/imageButton9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:scaleType="fitCenter"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/reverso" />
+
+            <ImageView
+                android:id="@+id/imageButton10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:scaleType="fitCenter"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/reverso" />
+
+            <ImageView
+                android:id="@+id/imageButton11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:scaleType="fitCenter"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/reverso" />
+
+            <ImageView
+                android:id="@+id/imageButton12"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:scaleType="fitCenter"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/reverso" />
+
+            <ImageView
+                android:id="@+id/imageButton13"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:scaleType="fitCenter"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/reverso" />
+
+            <ImageView
+                android:id="@+id/imageButton14"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:scaleType="fitCenter"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/reverso" />
+
+            <ImageView
+                android:id="@+id/imageButton15"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:scaleType="fitCenter"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/reverso" />
+
+            <ImageView
+                android:id="@+id/imageButton16"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:scaleType="fitCenter"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/reverso" />
+
+            <ImageView
+                android:id="@+id/imageButton17"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:scaleType="fitCenter"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/reverso" />
+
+            <ImageView
+                android:id="@+id/imageButton18"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:scaleType="fitCenter"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/reverso" />
+
+            <ImageView
+                android:id="@+id/imageButton19"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:scaleType="fitCenter"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/reverso" />
+
+            <ImageView
+                android:id="@+id/imageButton20"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:scaleType="fitCenter"
+                app:layout_columnWeight="1"
+                app:srcCompat="@drawable/reverso" />
+
+        </androidx.gridlayout.widget.GridLayout>
+        </ViewFlipper>
+    </LinearLayout>
+</ScrollView>
